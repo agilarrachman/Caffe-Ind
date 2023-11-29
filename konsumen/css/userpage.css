@@ -1,0 +1,2097 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Navbar Start */
+  .custom-navbar-bg {
+    background-color: #BF3148;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .custom-navbar-bg .container-fluid{
+    max-width: 1200px;
+  }
+
+.regular-logo {
+  display: block;
+}
+
+.scrolled-logo {
+  display: none;
+}
+
+.custom-navbar-bg button.navbar-toggler{
+  background-color: #F2C029;
+}
+
+  .custom-navbar-bg .nav-item a{
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    opacity: 100%;
+    text-decoration: none;
+    margin: auto;
+  }
+
+  .custom-navbar-bg .nav-item a.active {
+    color: #F2C029;
+    font-weight: 700;
+  }  
+
+  .custom-navbar-bg .dropdown li{
+    display: flex;
+    padding: 5px 0px;
+    border-bottom: 1px solid #afafaf;
+  }
+
+  .custom-navbar-bg .dropdown a{
+    color: white;
+  }
+
+  .custom-navbar-bg .dropdown img{
+    margin: auto;
+  }
+
+  .custom-navbar-bg .profile-picture{
+    margin: auto 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 4;
+  }
+
+  .custom-navbar-bg .dropdown-menu a{
+    color: #3a3a3a;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 100%;
+    text-decoration: none;
+  }
+
+  .custom-navbar-bg .dropdown li.logout{
+    border-bottom: none;
+    padding: 0;
+    margin: 10px auto;
+  }
+
+  .custom-navbar-bg .dropdown .logout a.logout-link{
+    background-color: #BF3148;
+    color: white;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 100%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .navbar-toggler-icon span {
+    background-color: white;
+  }
+
+.custom-navbar-bg.navbar-scrolled {
+  background-color: #ffffff;
+  border-bottom: 1px solid #BF3148;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-navbar-bg.navbar-scrolled .nav-item a {
+  color: #333; 
+}
+
+.custom-navbar-bg.navbar-scrolled .nav-item a.active {
+  color: #bf3148;
+}
+  /* Navbar End */
+
+  /* Landing Page Start */
+  .landing-page {
+    margin-top: -140px;
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/bg_userpage.png);
+    background-repeat: no-repeat;
+    background-color: #bf3148;
+  }
+
+  .landing-page .glass{
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    background: rgba(255, 255, 255, 0.33);
+    backdrop-filter: blur(6.800000190734863px);
+    position: relative;
+    top: 30px;
+    padding: 50px 60px 30px 60px;
+    min-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing-page .content{
+    display: flex;  
+    margin: auto;
+    width: fit-content;
+  }
+
+  .landing-page #char3d{
+    margin: auto;
+  }
+
+  .landing-page .summary h4,h2,p,h5{
+    font-family: "Poppins", Helvetica;
+    color: white;
+  }
+
+  .landing-page .summary h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.landing-page .summary h2{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.landing-page .summary p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.landing-page .ingredients{
+    display: flex;
+    gap: 10px;
+}
+
+.landing-page .consume{
+    margin-top: 13px;
+    background-image: url(../assets/bubble.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 118px;
+    position: relative;
+    right: 28px;
+    display: flex;
+}
+
+.landing-page .consume .teks{
+    margin: 20px 60px auto 60px;
+}
+
+.landing-page .consume h5{
+    font-size: 20px;
+    font-weight: 500;    
+}
+
+.landing-page .ingredients p{
+    font-size: 17px;
+    font-weight: 400; 
+    margin: auto;  
+}
+
+.glass a{
+  margin: auto;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;;
+  opacity: 100%;
+  text-decoration: none;
+}
+/* Landing Page End */
+
+.overlay-bot{
+    width: 100%;
+    height: 100%;
+}
+
+.overlaybot-landingpage{
+    position: relative;
+    bottom: 130px;
+}
+
+.line-after-landingpage{
+    position: relative;
+    bottom: 170px;
+    width: 3px;
+    height: 153px;
+    background-color: #bf3148;
+    margin: auto;
+    border: 0;
+    opacity: 100%;
+}
+
+/* Rekomendasi Start */
+.rekomendasi{
+  margin-top: -100px;
+  margin-bottom: 50px;  
+}
+.rekomendasi h2{
+  margin: auto;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  font-size: 50px;
+  color: #bf3148;  
+  text-align: center;
+}
+
+.rekomendasi i{
+  margin: auto;
+  font-weight: 700;
+  font-size: 50px;
+  color: #bf3148;  
+}
+
+.rekomendasi .coffee{
+  margin: auto;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.rekomendasi .cards{
+  margin: auto;
+  display: flex;
+  gap: 50px;
+}
+
+.rekomendasi .carousel-inner {
+  width: 910px;
+  margin: auto 100px 30px 100px;
+}
+
+.rekomendasi .carousel-indicators {
+  margin: auto 0;
+}
+
+.rekomendasi .carousel-control-prev{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: #BF3148;
+  border-radius: 25px;
+  opacity: 80%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rekomendasi .carousel-control-prev:hover{
+  transform: scale(0.9); 
+  opacity: 100%;
+}
+
+.rekomendasi .carousel-control-next{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  background-color: #BF3148;
+  border-radius: 25px;
+  opacity: 80%;
+  transition: transform 0.3s ease-in-out;  
+}
+
+.rekomendasi .carousel-control-next:hover{
+  transform: scale(0.9); 
+  opacity: 100%;
+}
+
+.rekomendasi .carousel-indicators .active {
+  background-color: #BF3148;
+  opacity: 100%;
+}
+
+.rekomendasi .carousel-indicators button {
+  background-color: #a1a1a1;
+  opacity: 100%;
+}
+
+.rekomendasi .card{
+  width: 270px;
+  height: 370px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #BF3148 0%, #F2F2F2 75.52%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  margin: auto;
+}
+
+.rekomendasi .content-rekomendasi{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.rekomendasi img{
+  max-width: 161px;
+  max-height: 247px;
+  object-fit: cover;
+  margin: auto auto 0 auto;
+}
+
+.rekomendasi .card h4{
+  text-align: center;
+  max-width: 200px;
+  margin: auto;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  font-size: 25px;
+  color: #bf3148;;
+}
+
+.rekomendasi .card p{
+  text-align: center;
+  margin: auto;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  font-size: 15px;
+  color: #3a3a3a;
+}
+/* Rekomendasi End */
+
+.line-after-rekomendasi{
+  position: relative;
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto auto 50px auto;
+  border: 0;
+  opacity: 100%;
+}
+
+/* Dampak Kopi Start */
+.dampak{
+  margin: auto auto 50px auto;  
+}
+
+.container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.dampak h2{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color:#bf3148;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.dampak h3{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color:black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.dampak .content{
+  display: flex;
+  margin: auto;
+  gap: 45px;
+  margin-top: 30px;
+}
+
+.dampak .left{
+  width: 370px;
+  margin: auto;
+}
+.dampak .right{
+  width: 370px;
+  margin: auto;
+}
+
+.dampak .content h2{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: black;
+  font-size: 25px;
+  text-align: left;
+}
+
+.dampak .content li{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #515151;
+  font-size: 18px;
+  text-align: left;
+}
+
+.dampak .list-left{
+  margin-left: 20px;
+}
+/* Dampak Kopi End */
+
+.line-after-dampak{
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto auto 50px auto;
+  border: 0;
+  opacity: 100%;
+}
+
+/* Monitoring Start */
+.monitoring{
+  margin-bottom: 50px;
+}
+
+.monitoring .row1-monitoring{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.monitoring .row1-monitoring img{
+  margin: auto;
+}
+
+.monitoring .row1-monitoring .teks{
+  border-bottom: 3px solid #BF3148;
+  width: 730px;
+  height: fit-content;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+
+.monitoring .row1-monitoring p{
+  font-family: "Poppins", Helvetica;
+  color: #bf3148;
+  font-size: 35px;
+  font-weight: 800;
+  margin: auto auto 35px 150px;
+  width: 550px;
+}
+
+.monitoring .row2-monitoring{
+  display: flex;
+  margin-top: -150px;
+}
+
+.monitoring .row2-monitoring .scanqr{
+  margin: auto 41px 0px auto;
+  width: 400px;
+  height: 550px;
+  border-right: 3px solid #BF3148;
+  padding-right: 20px;
+  display: flex;
+}
+
+.monitoring .row2-monitoring .scanqr .teks{
+  margin: auto auto 0px auto;
+  width: 337px;
+  display: flex;
+  flex-direction: column;
+}
+
+.monitoring .row2-monitoring img{
+  margin: auto;
+  z-index: -1;
+}
+
+.monitoring .row2-monitoring .scanqr a{
+  margin-right: 0px;
+  margin-left: auto;
+  font-family: "Poppins", Helvetica;
+  color: #bf3148;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #D9D9D9;
+  text-decoration: none;
+  padding: 19px 33px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.monitoring .row2-monitoring .scanqr h4{
+  font-family: "Poppins", Helvetica;
+  color: #bf3148;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.monitoring .row2-monitoring .scanqr p{
+  font-family: "Poppins", Helvetica;
+  color: #1e1b1b;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.monitoring .row2-monitoring .card{
+  background-color: #BF3148;
+  width: fit-content;
+  height: fit-content;
+  margin: auto auto auto -100px;
+  padding: 30px 30px 55px 30px;
+}
+
+.monitoring .row2-monitoring .teks{
+  margin: auto;
+}
+
+.monitoring .row2-monitoring .card h4{
+  font-family: "Poppins", Helvetica;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  margin: auto auto 10px auto;
+}
+
+.monitoring .row2-monitoring .card p{
+  font-family: "Poppins", Helvetica;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 300;
+  margin: auto auto 55px auto;
+}
+
+.monitoring .row2-monitoring .card a{
+  margin-right: auto;
+  margin-left: 0px;
+  font-family: "Poppins", Helvetica;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 3px solid white;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line-after-monitoring{
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto auto 50px auto;
+  border: 0;
+  opacity: 100%;
+}
+
+/* Grafik Start */
+.graph{
+  margin-top: -150px;
+}
+
+.graph .content{
+  background-color: #bf3148;
+  padding: 150px 0;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/vektor\ kopi\ grafik.png);
+  background-position-x: -100px;
+}
+
+.graph .summary{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 30px;
+}
+
+.graph .diagram{
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.graph .diagram canvas{
+  width: 430px;
+  margin: auto;
+}
+
+.graph .chart canvas{
+  width: 900px;
+  padding: 30px 50px;
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.graph .chart{
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.graph .card{
+  border-radius: 20px;
+  background: #D9D9D9;
+  width: 724px;
+  height: 198px;
+  display: flex;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.graph .content-card{
+  display: flex;
+  flex-direction: column;
+  margin: auto auto auto 35px;
+}
+
+.graph .card .row-top{
+  display: flex;
+  gap: 35px;
+  margin: 18px auto auto auto;
+}
+
+.graph .card .row-top img{
+  margin: auto;
+  max-width: 103px;
+  max-height: 155px;
+}
+
+.graph .card .row-top .desc{
+  margin: auto;
+  display: flex;
+  width: 523px;
+  flex-direction: column;
+}
+
+.graph ul{
+  margin: auto;
+  display: flex;
+  gap: 50px;
+}
+
+.graph .ingredients{
+  display: flex;
+  gap: 10px;
+  margin: auto auto auto 0px;
+}
+
+.graph h2{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.graph .card h4{
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #bf3148;
+  font-size: 30px;
+  margin: auto auto auto 0px
+}
+
+.graph .card h5{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #1e1b1b;
+  font-size: 23px;
+  margin: auto auto auto 0px;
+}
+
+.graph .card .additional{
+  display: flex;
+  gap: 0;
+}
+
+.graph .card .additional p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #1e1b1b;
+  font-size: 15px;
+  margin: auto 0;
+}
+
+.graph .card .additional ul{
+  margin: auto 0;
+  display: flex;
+}
+
+.graph .card .additional li{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #1e1b1b;
+  font-size: 15px;
+  margin: auto 0;
+}
+
+.graph .card p.date{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #1e1b1b;
+  font-size: 15px;
+  margin: 0px 0px auto auto;
+  position: relative;
+  bottom: 10px;
+}
+
+.graph .card .details li{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #3a3a3a;
+  font-size: 14px;
+  margin: auto 0;
+  
+}
+
+.graph .card .details p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #3a3a3a;
+  font-size: 14px;
+  margin: auto;
+}
+
+.graph .ingredients .col1 p{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  margin: auto;
+}
+
+.graph .ingredients .col2 p{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  margin: auto;
+}
+
+.graph .ingredients .col3 p{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  margin: auto;
+}
+
+.graph .content a{
+  color: #ffffff;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 30px auto auto auto;
+  text-decoration: none;
+}
+
+.overlay-top{
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+}
+
+.overlaybot-grafik{
+  margin-top: -120px;
+}
+
+.line-after-grafik{
+    width: 3px;
+    height: 153px;
+    background-color: #bf3148;
+    margin: auto auto 70px auto;
+    border: 0;
+    opacity: 100%;
+}
+/* Grafik End */
+
+/* Search Start */
+.search{
+  margin-bottom: 50px;
+}
+
+.search .container{
+  display: flex;
+}
+
+.search .card{
+  border-radius: 30px;
+  background: #C7C7C7;
+  width: 1170px;
+  height: 450px;
+  display: flex;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: auto;
+  background-image: url(../assets/cardsearch.png);
+}
+
+.search .content-card{
+  display: flex;
+  flex-direction: column;
+  margin: auto 30px auto auto;
+}
+
+.search .content-card .teks{
+  margin: auto 0px auto auto;
+  width: 800px;
+}
+
+.search .teks h3{
+  color: #BF3148;
+  font-family: poppins;
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto auto 20px auto;
+}
+
+.search .teks p{
+  color: #1e1b1b;
+  font-family: poppins;
+  font-size: 25px;
+  font-weight: 500;
+  margin: auto 0px 20px auto;
+  width: 700px;
+}
+
+.search a{
+  color: white;
+  background-color: #BF3148;
+  font-family: poppins;
+  font-size: 25px;
+  font-weight: 500;
+  margin: auto 20px auto auto;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+/* Search End */
+
+.line-after-search{
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto auto 50px auto;
+  border: 0;
+  opacity: 100%;
+}
+
+/* Caffe-nChat Start */
+.caffenchat{
+  margin-bottom: 50px;
+}
+
+.caffenchat .container{
+  display: flex;
+}
+
+.caffenchat .card{
+  border-radius: 30px;
+  background: #C7C7C7;
+  width: 1170px;
+  height: 450px;
+  display: flex;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: auto;
+  background-image: url(../assets/cardcaffenchat.png);
+}
+
+.caffenchat .content-card{
+  display: flex;
+  flex-direction: column;
+  margin: auto auto auto auto;
+}
+
+.caffenchat .content-card .teks{
+  margin: auto auto auto 50px;
+  width: 750px;
+}
+
+.caffenchat .teks h3{
+  color: #BF3148;
+  font-family: poppins;
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto auto auto auto;
+}
+
+.caffenchat .teks p{
+  color: #1e1b1b;
+  font-family: poppins;
+  font-size: 25px;
+  font-weight: 500;
+  margin: auto auto 20px auto;
+}
+
+.caffenchat a{
+  color: white;
+  background-color: #BF3148;
+  font-family: poppins;
+  font-size: 25px;
+  font-weight: 500;
+  margin: auto 20px auto auto;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+/* Caffe-nChat End */
+
+.line-after-caffenchat{
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto auto 0px auto;
+  border: 0;
+  opacity: 100%;
+}
+
+/* Download Start */
+.download {
+  background-color: #bf3148;
+  background-image: url('../assets/vektor-kopi-hitam.png');
+  margin-top: -120px;
+  margin-bottom: -110px;
+}
+
+.download .content{
+  display: flex;
+  gap: 111px;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  background: rgba(255, 255, 255, 0.33);
+  backdrop-filter: blur(6.800000190734863px);
+  width: 1211px;
+  height: 598px;
+  flex-shrink: 0;
+  margin: 150px auto;
+  position: relative; 
+  right: 5px; 
+}
+
+.download .left{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin: auto 0 auto auto;
+}
+
+.download .carousel-inner {
+  width: 435px;
+  margin: auto auto 30px auto;
+}
+
+.download .carousel-indicators {
+  width: 435px;
+  margin: auto;
+}
+
+.download .carousel-control-prev, .carousel-control-next{
+  height: fit-content;
+  margin: auto;
+  z-index: 7;
+}
+
+.download .carousel-indicators .active {
+  background-color: #F2C029;
+  opacity: 100%;
+}
+
+.download .left img{
+  margin: auto;
+}
+
+.download .left .card{
+  background-color: #F2C029;
+  margin: auto;
+  width: 435px;
+  height: 125px;
+  display: flex;
+  border-radius: 17px;
+}
+
+.download .left .card p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  margin: auto;
+  width: 386px;
+}
+
+
+.download .right{
+  display: flex;
+  flex-direction: column;
+  margin: auto auto auto 0;
+}
+
+.download .right p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  width: 435px;
+  text-align: left;
+}
+
+.download .right h2{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: white;
+  font-size: 35px;
+  width: 435px;
+  text-align: left;
+}
+
+.download .platform{
+  display: flex;
+  width: fit-content;
+}
+
+.download .platform .apps-store{
+  position: relative;
+  right: 21px;
+}
+
+.download .platform .google-play{
+  position: relative;
+  right: 41px;
+  bottom: 1px;
+}
+
+.download .buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.download .button-download{
+  background-color: #F2C029;
+  width: 429px;
+  height: 58px;
+  display: flex;
+  border-radius: 9px;
+}
+
+.download .buttons a{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.download .button-pelajari{
+  background-color: #ffffff;
+  width: 429px;
+  height: 58px;
+  display: flex;
+  border-radius: 9px;
+}
+
+.download .button-pelajari a{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #bf3148;
+  font-size: 20px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.line-after-download{
+  position: relative;
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto;
+  margin-bottom: 8px;
+  border: 0;
+  z-index: 2;
+  opacity: 100%;
+}
+/* Download End */
+
+/* Contact Start */
+.contact{
+  margin-top: -110px;
+  margin-bottom: -400px; 
+}
+
+.contact .background{
+  background-color: #bf3148;
+  width: 1149px;
+  height: 1050px;
+  margin: auto;
+  display: flex;
+  background-image: url('../assets/vektor-kopi-putih.png'); 
+  padding-bottom: 60px;
+}
+
+.contact .content{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: auto;
+}
+
+.contact .header{
+  width: 700px;
+  margin: auto;
+
+}
+
+.contact h3{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #F2C029;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact h2{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact .informations{
+  display: flex;
+  margin: auto;
+  gap: 154px;
+  position: relative;
+  left: 60px;
+} 
+
+.contact .info{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact .info img{
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.contact .info h4{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.contact .info p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact .form{
+  display: flex;
+  margin: auto;
+  gap: 37px;
+}
+
+.contact .input{
+  margin: auto;
+  width: 538px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.contact .form img{
+  height: 404px;
+}
+
+.contact .input input {
+  margin-left: 20px;
+  background-color: #f2507b00;
+  width: 487px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.contact input::placeholder {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contact .large-input{
+  margin: auto;
+  width: 538px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.contact .large-input textarea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f2507b00;
+  width: 500px;
+  height: 120px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+.contact textarea::placeholder {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.contact  #send{
+  margin: auto;
+  background-color: #F2C029;
+  width: 537px;
+  height: 58px;
+  border-radius: 9px;
+  cursor: pointer;
+  border: none;
+  margin: auto;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.overlaybot-contact{
+  margin-top: 290px;
+}
+/* Contact End */
+
+
+/* Footer Start */
+footer{
+  margin-top: -110px;
+  background-color: black;
+  background-image: url("../assets/vektor\ kopi\ footer.png");
+}
+
+footer h4{
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+footer h5{
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+}
+
+footer p{
+  margin: auto auto auto 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+footer .container{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .row1{
+  display: flex;
+  gap: 40px;
+  margin: 130px auto 50px auto;
+}
+
+footer .col{
+  width: 100%;
+}
+
+footer .row-icon{
+  display: flex;
+  gap: 10px;
+}
+
+footer #col1 #location img{
+  margin: 0 0 auto 0;
+}
+
+footer #col2 p{
+  margin-bottom: 25px;
+}
+
+footer .socialmedia{
+  display: flex;
+  gap: 19px;
+}
+
+footer #col3 #KopInTouch{
+  margin-bottom: 5px;
+}
+
+footer #col3 #location img{
+  margin: 0 0 auto 0;
+}
+
+footer #col3 #open-hours{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+
+footer #col3 #location{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .row2 hr{
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  z-index: 2;
+  border: 0;
+}
+
+footer .row2 p{
+  text-align: center;
+}
+
+footer .row2 span{
+  color: #bf3148;
+  font-weight: 700;
+}
+/* Footer End */
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  /* Navbar Start */
+  .container-fluid {
+    max-width: 100%;
+  }
+
+  .custom-navbar-bg  {
+    max-width: 100%;
+    border: none;
+  }
+
+  .regular-logo {
+    display: block;
+    width: 50%;
+  }
+
+  /* Add styles for the mobile toggle button */
+  .custom-navbar-bg button.navbar-toggler {
+    background-color: #F2C029;
+  }
+
+  .custom-navbar-bg .nav-item a {
+    font-size: 14px;
+  }
+
+  .custom-navbar-bg .nav-button {
+    padding: 7px 14px;
+  }
+
+  /* Adjust margin for mobile view */
+  .custom-navbar-bg.navbar-scrolled {
+    margin-top: 0;
+  }
+  /* Navbar End */
+
+  /* Landing Page Start */
+  .landing-page {
+    margin-top: -70%;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 20%;
+  }
+
+  .landing-page .glass{
+    margin-top: 100px;
+    padding: 0;
+    min-width: 95%;
+  }
+
+  .landing-page .content{    
+    width: 100%;
+    margin: 20px 10px 0px 10px;
+  }
+
+  .landing-page #char3d{
+    width: 20%;
+  }
+
+  .landing-page .summary h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.landing-page .summary h2{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.landing-page .summary p{
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.landing-page .consume{
+  margin-top: 13px;
+  background-image: url(../assets/bubble.png);
+  background-repeat: no-repeat;
+  width: 90%;
+  border-top-right-radius: 20px;
+  position: relative;
+  right: 15px;
+  display: flex;
+}
+
+.landing-page .ingredients{
+  margin-left: -10px;
+}
+
+.landing-page .consume h5{
+  font-size: 15px;
+  font-weight: 500;    
+  margin-left: -10px;
+}
+
+.glass a{
+  margin: auto;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  font-size: 12px;
+  color: white;;
+  opacity: 100%;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 10px 20px 10px;
+}
+  /* Landing Page End */
+
+  .overlaybot-landingpage{
+    margin-bottom: 50px;    
+}
+
+.line-after-landingpage{
+  width: 1px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Rekomendasi Start */
+.rekomendasi{
+  margin-top: -40%;
+  margin-bottom: 0;
+}
+
+.rekomendasi h2{
+  font-size: 25px;
+}
+
+.rekomendasi .coffee{
+  width: 100%;
+}
+
+.rekomendasi .carousel{
+  width: 100%;
+  margin: auto;
+}
+
+.rekomendasi .carousel-inner {
+  width: 100%;
+  margin: auto 0 30px 0;
+}
+
+.rekomendasi .carousel-control-prev{
+  display: none;
+}
+
+.rekomendasi .carousel-control-next{
+  display: none;
+}
+
+.rekomendasi .cards{
+  width: 100%;
+  gap: 5px;
+}
+
+.rekomendasi .card{
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.rekomendasi img{
+  max-width: 50%;
+  min-height: 50%;
+  margin-bottom: 10px;
+}
+
+.rekomendasi .card h4{
+  max-width: 92%;
+  font-size: 15px;
+}
+
+.rekomendasi .card p{
+  font-size: 10px;
+}
+/* Rekomendasi End */
+
+.line-after-rekomendasi{
+  width: 1px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Dampak Kopi Start */
+.dampak {
+  margin-top: 0;
+}
+
+.dampak h2 {
+  font-size: 18px;
+}
+
+.dampak h3 {
+  font-size: 15px;
+}
+
+.dampak .content {
+  flex-direction: column;
+  width: 80%;
+  gap: 15px;
+}
+
+.dampak .content h2{
+  font-size: 15px;
+  text-align: center;
+}
+
+.dampak .content li{
+  font-size: 12px;
+}
+
+.dampak .content .left{
+  width: 100%;
+}
+
+.dampak .content .right{
+  width: 100%;
+}
+
+.dampak img {
+  width: 90%;
+}
+/* Dampak Kopi End */
+
+/* Monitoring Start */
+.monitoring {
+  width: 100%;
+}
+
+.monitoring img {
+  width: 60%;
+}
+
+.monitoring .row1-monitoring{
+  flex-direction: column;
+}
+
+.monitoring .row1-monitoring .teks{
+  border-bottom: 1px solid #BF3148;
+  width: 100%;
+  height: fit-content;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.monitoring .row1-monitoring p{
+  font-family: "Poppins", Helvetica;
+  color: #bf3148;
+  font-size: 20px;
+  font-weight: 800;
+  margin: auto;
+  width: 100%;
+}
+
+.monitoring .row2-monitoring{
+  display: flex;
+  margin-top: 0px;
+}
+
+.monitoring .row2-monitoring .scanqr{
+  margin: auto 41px 0px auto;
+  width: 400px;
+  height: 550px;
+  border-right: 1px solid #BF3148;
+  padding-right: 20px;
+  display: flex;
+}
+
+.monitoring .row2-monitoring .scanqr .teks{
+  margin: auto auto 0px auto;
+  width: 337px;
+  display: flex;
+  flex-direction: column;
+}
+
+.monitoring .row2-monitoring img{
+  margin: auto;
+  z-index: -1;
+}
+
+.monitoring .row2-monitoring .scanqr a{
+  margin-right: 0px;
+  margin-left: auto;
+  font-family: "Poppins", Helvetica;
+  color: #bf3148;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #D9D9D9;
+  text-decoration: none;
+  padding: 19px 33px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.monitoring .row2-monitoring .scanqr h4{
+  font-family: "Poppins", Helvetica;
+  color: #bf3148;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.monitoring .row2-monitoring .scanqr p{
+  font-family: "Poppins", Helvetica;
+  color: #1e1b1b;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.monitoring .row2-monitoring .card{
+  background-color: #BF3148;
+  width: fit-content;
+  height: fit-content;
+  margin: auto auto auto -100px;
+  padding: 30px 30px 55px 30px;
+}
+
+.monitoring .row2-monitoring .teks{
+  margin: auto;
+}
+
+.monitoring .row2-monitoring .card h4{
+  font-family: "Poppins", Helvetica;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin: auto auto 10px auto;
+}
+
+.monitoring .row2-monitoring .card p{
+  font-family: "Poppins", Helvetica;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin: auto auto 55px auto;
+}
+
+.monitoring .row2-monitoring .card a{
+  margin-right: auto;
+  margin-left: 0px;
+  font-family: "Poppins", Helvetica;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 3px solid white;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Download Start */
+.download {
+  width: 100%;
+  height: auto;
+  margin-top: -10%;
+  margin-bottom: 20%;
+}
+
+.download .content {
+  width: 90%;
+  max-width: 90%;
+  padding: 10px 0;
+  margin: 50px auto;
+}
+
+.download .left,
+.download .right {
+  width: 100%;
+}
+
+.download .left img,
+.download .left .card,
+.download .right p,
+.download .right h2 {
+  width: 100%;
+}
+
+.download .carousel-inner,
+.download .carousel-indicators {
+  width: 80%;
+  max-width: 90%;
+}  
+
+.download .left .card{
+  width: auto;
+  height: 80px;
+  
+}
+
+.download .left .card p{
+  font-weight: 500;    
+  font-size: 12px;
+  width: auto;
+  margin: auto 10px;
+}
+
+.download .right{
+  width: 90%;
+  margin: auto 20px;
+}
+.download .right p{
+  font-size: 15px;
+}
+
+.download .right h2{
+  font-size: 22px;
+}
+
+.download .platform{
+  gap: 2px;
+}
+
+.download .platform img{
+  width: 97%;
+}
+
+.download .platform .apps-store{
+  margin: auto -12px;
+}
+
+.download .platform .google-play{
+  
+  margin: auto -12px;
+}
+
+.download .buttons{
+  width: 97%;
+}
+
+.download .buttons a{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.download .button-download{
+  width: auto;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.download .button-pelajari{
+  width: auto;
+  height: 40px;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.line-after-download {
+  width: 1px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+/* Download End */
+
+/* Contact Start */
+.contact {
+  margin-top: -10%;
+  margin-bottom: -10%;
+}
+
+.contact .background {
+  width: 90%;
+  padding: 30px 0;
+  height: auto;
+}
+
+.contact .header {
+  width: 80%;
+  margin: auto;
+}
+
+.contact h3 {
+  font-size: 18px;
+  margin: auto;
+}
+
+.contact h2 {
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.contact .informations {
+  width: 90%;
+  gap: 0;
+  margin: auto;
+  left: 0;
+  flex-direction: column;
+}
+
+.contact .info img {
+  width: 18px;
+}
+
+.contact .info h4 {
+  font-size: 16px;
+}
+
+.contact .info p {
+  font-size: 14px;
+}
+
+.contact .form {
+  height: fit-content;
+  margin: auto;
+  width: 95%;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+}
+
+.contact .form .content-left {
+  width: fit-content;
+  margin: auto;
+}
+
+.contact .form .content-right {
+  width: 95%;
+  margin: auto;
+}
+
+.contact .form img {
+  height: 280px;
+}
+
+.overlaytop-contact {
+  position: relative;
+  bottom: 10px;
+}
+
+.contact .input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.contact .input input {
+  margin: 10px;
+}
+
+.contact .large-input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.contact .large-input textarea {
+  margin: 10px;
+}
+
+.contact #send {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.overlaybot-contact {
+  top: 0px;
+}
+
+/* Contact End */
+
+/* Footer Start */
+footer{
+  width: 100%;
+}
+
+footer h4{
+  font-size: 25px;
+}
+
+footer h5{
+  font-size: 25px;
+}
+
+footer p{
+  margin: auto auto auto 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+}
+
+footer .container{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .row1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+}
+
+footer .col{
+  width: fit-content;
+  margin: auto;
+}
+
+footer #col1{
+  margin: auto auto auto 16%;
+}
+
+footer #col2{
+  width: 70%;
+  margin: auto;
+}
+
+
+footer #col3{
+  width: 70%;
+}
+
+footer .row-icon{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+footer #col1 #location img{
+  margin: 0 0 auto 0;
+}
+
+footer #col2 p{
+  margin-bottom: 25px;
+}
+
+footer .socialmedia{
+  display: flex;
+  gap: 19px;
+  width: 100%;
+}
+
+footer #col3 #KopInTouch{
+  margin-bottom: 5px;
+}
+
+footer #col3 #location img{
+  margin: 0 0 auto 0;
+}
+
+footer #col3 #open-hours{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+
+footer #col3 #location{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .row2{
+  margin: auto;
+}
+
+footer .row2 hr{
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  z-index: 2;
+  border: 0;
+}
+
+footer .row2 p{
+  text-align: center;
+}
+
+footer .row2 span{
+  color: #bf3148;
+  font-weight: 700;
+}
+/* Footer End */
+/* Monitoring End */
+}

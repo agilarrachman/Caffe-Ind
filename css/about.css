@@ -1,0 +1,857 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Navbar Start */
+.custom-navbar-bg {
+  border-bottom: 1px solid #ffffff;
+}
+
+.custom-navbar-bg .container-fluid{
+  max-width: 1200px;
+}
+
+.regular-logo {
+display: block;
+}
+
+.custom-navbar-bg button.navbar-toggler{
+background-color: #F2C029;
+}
+
+.custom-navbar-bg .nav-item a{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  opacity: 100%;
+  text-decoration: none;
+  margin: auto;
+}
+
+.custom-navbar-bg .nav-item a.active {
+  color: #BF3148;
+  font-weight: 700;
+}  
+
+.custom-navbar-bg .nav-button{
+  background-color: #BF3148;
+  padding: 7px 14px;
+  border-radius: 7px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.custom-navbar-bg.navbar-scrolled {
+  background-color: #ffffff;
+  border-bottom: 1px solid #BF3148;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-navbar-bg.navbar-scrolled .nav-item a {
+  color: #333;  
+}
+
+.custom-navbar-bg.navbar-scrolled .nav-item a.nav-button {
+  color: #ffffff; 
+}
+
+.custom-navbar-bg.navbar-scrolled .nav-item a.active {
+  color: #bf3148;
+}
+/* Navbar End */
+  
+/* Landing Page Start */
+.landing-page {
+  margin-top: -80px;
+  width: auto;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 55px;
+}
+
+.landing-page .background {
+  position: absolute; 
+  top: 0px;
+  left: 0;
+  z-index: -1;
+}
+
+.landing-page .background img{
+  width: 100%;
+}
+
+.landing-page .content{
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-page .content img{
+  margin: auto;
+}
+  
+.landing-page h1, h2{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+}
+  
+.landing-page .teks{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+  
+.landing-page .heading{
+  margin: auto;
+  padding-top: 10px;
+}
+  
+.landing-page .subheading{
+  margin: auto;
+  padding-top: 10px;
+}
+  
+.landing-page h1{
+  font-size: 40px;
+  font-weight: 900;
+}
+  
+.landing-page h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+  
+.landing-page .button {
+  background-color: #bf3148;
+  border-radius: 9PX;
+  padding: 18px 25px;
+  margin: auto;
+}
+    
+.landing-page .button a{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  opacity: 100%;
+  text-decoration: none;
+}
+/* Landing Page End */
+  
+.overlaybot-landingpage{
+  margin-top: -240px;
+}
+  
+.overlay-bot{
+  width: 100%;
+  height: 100%;
+}
+  
+.line-after-landingpage{
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto;
+  border: 0;
+  opacity: 100%;
+  margin-bottom: 100px;
+}
+
+/* About AIRIN Start */
+.airin{
+  margin-bottom: 50px;
+}
+
+.airin .container{
+  display: flex;
+  gap: 40px;
+}
+
+.airin img{
+  width: 700px;
+  z-index: -1;
+}
+
+.airin .about-airin{
+  margin: auto;
+}
+
+.airin .header-airin{
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #BF3148;
+  margin-right: -100px;
+  margin-bottom: 30px;
+}
+
+.airin .about-airin .header-airin h4{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color:#000000;
+  font-size: 30px;
+  margin: auto 0 auto auto;
+}
+
+.airin .about-airin .header-airin h2{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color:#bf3148;
+  font-size: 50px;
+  margin: auto 0 auto auto;
+}
+
+.airin .about-airin p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color:#000000;
+  font-size: 20px;
+}
+/* About AIRIN End */
+
+.line-after-airin{
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto;
+  border: 0;
+  opacity: 100%;
+  margin-bottom: 50px;
+}
+
+/* About KOPinTOUCH Start */
+.kopintouch{
+  margin-bottom: 50px;
+}
+
+.kopintouch .container{
+  display: flex;
+  gap: 40px;
+}
+
+.kopintouch img{
+  width: 700px;
+  z-index: -1;
+}
+
+.kopintouch .about-kopintouch{
+  margin: auto;
+}
+
+.kopintouch .header-kopintouch{
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #BF3148;
+  margin-left: -100px;
+  margin-bottom: 30px;
+}
+
+.kopintouch .about-kopintouch .header-kopintouch h4{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color:#000000;
+  font-size: 30px;
+  margin: auto auto auto 0;
+}
+
+.kopintouch .about-kopintouch .header-kopintouch h2{
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color:#bf3148;
+  font-size: 50px;
+  margin: auto auto auto 0;
+}
+
+.kopintouch .about-kopintouch p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color:#000000;
+  font-size: 20px;
+}
+/* About KOPinTOUCH End */
+
+.line-after-kopintouch{
+  width: 3px;
+  height: 153px;
+  background-color: #bf3148;
+  margin: auto;
+  border: 0;
+  opacity: 100%;
+  margin-bottom: 50px;
+}
+
+/* About Caffe-Ind Start */
+.caffeind{
+  margin-bottom: 100px;
+}
+
+.caffeind .container{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.caffeind .header-caffeind{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.caffeind .header-caffeind img{
+  margin: auto;
+  width: 300px;
+}
+
+.caffeind .header-caffeind h4{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color:#000000;
+  font-size: 30px;
+  margin: auto;
+}
+
+.caffeind .about-right, .about-left{
+  display: flex;
+  gap: 40px;
+}
+
+.caffeind .about-right img{
+  width: 500px;
+  z-index: -1;
+  margin: auto;
+}
+
+.caffeind .about-left img{
+  width: 400px;
+  z-index: -1;
+  margin: auto;
+}
+
+.caffeind .teks-about-caffeind{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 600px;
+}
+
+.caffeind .teks-about-caffeind .header-right{
+  width: 100%;
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #BF3148;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color:#bf3148;
+  font-size: 50px;
+  margin: auto auto 30px auto;
+}
+
+.caffeind .teks-about-caffeind .header-left{
+  width: 100%;
+  text-align: right;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #BF3148;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color:#bf3148;
+  font-size: 50px;
+  margin: auto auto 30px auto;
+}
+
+.caffeind .teks-about-caffeind p{
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color:#000000;
+  font-size: 20px;
+}
+/* About Caffe-Ind End */
+
+/* Footer Start */
+footer{
+  background-color: black;
+  background-image: url("../assets/vektor\ kopi\ footer.png");
+}
+
+footer h4{
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+footer h5{
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+}
+
+footer p{
+  margin: auto auto auto 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+footer .container{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .row1{
+  display: flex;
+  gap: 40px;
+  margin: 130px auto 50px auto;
+}
+
+footer .col{
+  width: 100%;
+}
+
+footer .row-icon{
+  display: flex;
+  gap: 10px;
+}
+
+footer #col1 #location img{
+  margin: 0 0 auto 0;
+}
+
+footer #col2 p{
+  margin-bottom: 25px;
+}
+
+footer .socialmedia{
+  display: flex;
+  gap: 19px;
+}
+
+footer #col3 #KopInTouch{
+  margin-bottom: 5px;
+}
+
+footer #col3 #location img{
+  margin: 0 0 auto 0;
+}
+
+footer #col3 #open-hours{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+
+footer #col3 #location{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .row2{
+  margin: auto;
+}
+
+footer .row2 hr{
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  z-index: 2;
+  border: 0;
+}
+
+footer .row2 p{
+  text-align: center;
+}
+
+footer .row2 span{
+  color: #bf3148;
+  font-weight: 700;
+}
+
+.overlay-top{
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+}
+
+.overlaytop-footer{
+  margin-bottom: -110px;
+}
+/* Footer End */
+
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  /* Navbar Start */
+  .container-fluid {
+    max-width: 100%;
+  }
+
+  .custom-navbar-bg  {
+    max-width: 100%;
+    border: none;
+  }
+
+  .regular-logo {
+    display: block;
+    width: 50%;
+  }
+
+  /* Add styles for the mobile toggle button */
+  .custom-navbar-bg button.navbar-toggler {
+    background-color: #F2C029;
+  }
+
+  .custom-navbar-bg .nav-item a {
+    font-size: 14px;
+  }
+
+  .custom-navbar-bg .nav-button {
+    padding: 7px 14px;
+  }
+
+  /* Adjust margin for mobile view */
+  .custom-navbar-bg.navbar-scrolled {
+    margin-top: 0;
+  }
+  /* Navbar End */
+
+  /* Landing Page Start */
+  .landing-page {
+    margin-top: -20px;
+    height: auto; 
+    margin-bottom: 0px;   
+  }
+
+  .landing-page .content{
+    margin-top: 40px;
+  }
+
+  .landing-page .content img{
+    width: 60%;
+    margin: auto
+  }
+
+  .landing-page .teks{
+    padding-bottom: 5px;
+  }
+
+  .landing-page .heading{
+    padding-top: 0px;
+  }
+  
+  .landing-page .subheading{
+    padding-top: 0px;
+  }
+
+  .landing-page h1 {
+    font-size: 15px;
+  }
+
+  .landing-page h2 {
+    font-size: 12px;
+  }
+  /* Landing Page End */
+
+  .overlaybot-landingpage{
+    margin-top: 0px;
+  }
+
+  .line-after-landingpage{
+    width: 1px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  /* About AIRIN Start */
+  .airin{
+    margin-bottom: 20px;
+  }
+
+  .airin .container{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .airin img{
+    width: 100%;
+    margin: auto;
+  }
+
+  .airin .header-airin{
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BF3148;
+    margin-right: -100px;
+    margin-bottom: 10px;
+  }
+
+  .airin .about-airin .header-airin h4{
+    font-size: 20px;
+  }
+  
+  .airin .about-airin .header-airin h2{
+    font-size: 30px;
+  }
+  
+  .airin .about-airin p{
+    font-size: 14px;
+  }
+  /* About AIRIN End */
+  
+  .line-after-airin{
+    width: 1px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  /* About KOPinTOUCH Start */
+  .kopintouch{
+    margin-bottom: 20px;
+  }
+
+  .kopintouch .container{
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .kopintouch img{
+    width: 100%;
+    margin: auto;
+  }
+
+  .kopintouch .header-kopintouch{
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BF3148;
+    margin-right: -100px;
+    margin-bottom: 10px;
+  }
+
+  .kopintouch .about-kopintouch .header-kopintouch h4{
+    font-size: 20px;
+  }
+  
+  .kopintouch .about-kopintouch .header-kopintouch h2{
+    font-size: 30px;
+  }
+  
+  .kopintouch .about-kopintouch p{
+    font-size: 14px;
+  }
+  /* About KOPinTOUCH End */
+
+  .line-after-kopintouch{
+    width: 1px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  /* About Caffe-Ind Start */
+  .caffeind .container{
+    gap: 10px;
+  }
+
+  .caffeind .about-right{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .caffeind .about-left{
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .caffeind .header-caffeind{
+    margin-bottom: 20px;
+  }
+
+  .caffeind .header-caffeind h4{    
+    font-size: 20px;
+  }
+
+  .caffeind .header-caffeind img{
+    width: 40%;
+  }
+
+  .caffeind .about-right img{
+    width: 100%;
+  }
+
+  .caffeind .about-left img{
+    width: 80%;
+  }
+
+  .caffeind .teks-about-caffeind{
+    width: 100%;
+  }
+
+  .caffeind .teks-about-caffeind .header-right{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BF3148;
+    font-size: 25px;
+    margin: auto auto 10px 0;
+  }
+
+  .caffeind .teks-about-caffeind .header-left{
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BF3148;
+    font-size: 25px;
+    margin: auto 0 10px auto;
+  }
+
+  .caffeind .teks-about-caffeind p{
+    font-size: 15px;
+  }
+  /* About Caffe-Ind End */
+
+  /* Footer Start */
+  footer{
+    width: 100%;
+  }
+  
+  footer h4{
+    font-size: 25px;
+  }
+  
+  footer h5{
+    font-size: 25px;
+  }
+  
+  footer p{
+    margin: auto auto auto 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  footer .container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .row1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  footer .col{
+    width: fit-content;
+    margin: auto;
+  }
+  
+  footer #col1{
+    margin: auto auto auto 16%;
+  }
+  
+  footer #col2{
+    width: 70%;
+    margin: auto;
+  }
+
+  
+  footer #col3{
+    width: 70%;
+  }
+  
+  footer .row-icon{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  footer #col1 #location img{
+    margin: 0 0 auto 0;
+  }
+  
+  footer #col2 p{
+    margin-bottom: 25px;
+  }
+  
+  footer .socialmedia{
+    display: flex;
+    gap: 19px;
+    width: 100%;
+  }
+
+  footer #col3 #KopInTouch{
+    margin-bottom: 5px;
+  }
+  
+  footer #col3 #location img{
+    margin: 0 0 auto 0;
+  }
+  
+  footer #col3 #open-hours{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+  }
+  
+  footer #col3 #location{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .row2{
+    margin: auto;
+  }
+  
+  footer .row2 hr{
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    z-index: 2;
+    border: 0;
+  }
+  
+  footer .row2 p{
+    text-align: center;
+  }
+  
+  footer .row2 span{
+    color: #bf3148;
+    font-weight: 700;
+  }
+  /* Footer End */
+
+  .overlaytop-footer{
+    margin-bottom: -10%;
+  }
+}

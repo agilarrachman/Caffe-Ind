@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bf3148;
+    background-image: url(../assets/bg-kopi-login-long.png);
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navbar Start */
+.custom-navbar-bg {
+    border-bottom: 1px solid #ffffff;
+}
+
+.custom-navbar-bg .container-fluid{
+    max-width: 1200px;
+}
+
+.regular-logo {
+    display: block;
+}
+
+.custom-navbar-bg button.navbar-toggler{
+    background-color: #F2C029;
+}
+
+.custom-navbar-bg .nav-item a{
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    opacity: 100%;
+    text-decoration: none;
+    margin: auto;
+}
+
+.custom-navbar-bg .nav-item a.active {
+    color: #F2C029;
+    font-weight: 700;
+}  
+
+.custom-navbar-bg .dropdown li{
+    display: flex;
+    padding: 5px 0px;
+    border-bottom: 1px solid #afafaf;
+}
+
+.custom-navbar-bg .dropdown a{
+    color: white;
+}
+
+.custom-navbar-bg .dropdown img{
+    margin: auto;
+}
+
+.custom-navbar-bg .profile-picture{
+    margin: auto 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 4;
+}
+
+.custom-navbar-bg .dropdown-menu a{
+    color: #3a3a3a;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.custom-navbar-bg .dropdown li.logout{
+    border-bottom: none;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.custom-navbar-bg .dropdown .logout a.logout-link{
+    background-color: #BF3148;
+    color: white;
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 100%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.navbar-toggler-icon span {
+    background-color: white;
+}
+
+.custom-navbar-bg.navbar-scrolled {
+    background-color: #BF3148;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+/* Navbar End */
+
+/* Menu Start */
+.menu{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.menu .container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto auto auto;
+}
+
+.menu h3{
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto auto 70px auto;
+}
+
+.menu .cards-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.menu .card-menu{
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    background: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(6.800000190734863px);
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+.menu .content-card{
+    display: flex;
+    gap: 50px;
+    width: 1000px;
+    margin: auto auto auto 50px;
+}
+
+.menu .content-card img{
+    min-width: 130px;
+    max-height: 250px;
+    margin: auto;
+}
+
+.menu .content-card .teks{
+    margin: auto;
+}
+
+.menu .teks .ingredients{
+    display: flex;
+    gap: 10px;
+}
+
+.menu .teks h4{
+    font-family: "Poppins", Helvetica;
+    font-weight: 800;
+    font-size: 35px;
+    color: #ffffff;
+    margin: auto auto 10px 0;
+}
+
+.menu .teks p{
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    margin: auto auto auto 0;
+}
+
+.menu .teks .row1 p{
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto auto auto 0;
+}
+
+.menu .teks .row2 p{
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto auto auto 0;
+}
+
+.menu .teks .row3 p{
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin: auto auto auto 0;
+}
+
+
+/* Menu End */
+
+/* Footer Start */
+footer{
+    margin-top: -40px;
+    background-color: black;
+    background-image: url("../assets/vektor\ kopi\ footer.png");
+}
+
+footer h4{
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+footer h5{
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+footer p{
+    margin: auto auto auto 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .row1{
+    display: flex;
+    gap: 40px;
+    margin: 130px auto 50px auto;
+}
+
+footer .col{
+    width: 100%;
+}
+
+footer .row-icon{
+    display: flex;
+    gap: 10px;
+}
+
+footer #col1 #location img{
+    margin: 0 0 auto 0;
+}
+
+footer #col2 p{
+    margin-bottom: 25px;
+}
+
+footer .socialmedia{
+    display: flex;
+    gap: 19px;
+}
+
+footer #col3 #KopInTouch{
+    margin-bottom: 5px;
+}
+
+footer #col3 #location img{
+    margin: 0 0 auto 0;
+}
+
+footer #col3 #open-hours{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+
+footer #col3 #location{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .row2 hr{
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    z-index: 2;
+    border: 0;
+}
+
+footer .row2 p{
+    text-align: center;
+}
+
+footer .row2 span{
+    color: #bf3148;
+    font-weight: 700;
+}
+
+.overlay-top{
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+}
+/* Footer End */
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        font-size: 14px;
+      }
+    
+      .container {
+        max-width: 100%;
+        margin: auto;
+      }
+    
+      /* Navbar Start */
+      .container-fluid {
+        max-width: 100%;
+      }
+    
+      .custom-navbar-bg  {
+        max-width: 100%;
+        border: none;
+      }
+    
+      .regular-logo {
+        display: block;
+        width: 50%;
+      }
+    
+      /* Add styles for the mobile toggle button */
+      .custom-navbar-bg button.navbar-toggler {
+        background-color: #F2C029;
+      }
+    
+      .custom-navbar-bg .nav-item a {
+        font-size: 14px;
+      }
+    
+      .custom-navbar-bg .nav-button {
+        padding: 7px 14px;
+      }
+    
+      /* Adjust margin for mobile view */
+      .custom-navbar-bg.navbar-scrolled {
+        margin-top: 0;
+      }    
+      /* Navbar End */
+
+      /* Menu Start */
+      .menu{
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+      .menu .container{
+        margin: 20px auto auto auto;
+    }
+    
+    .menu h3{
+        font-size: 25px;
+        margin: auto auto 30px auto;
+    }
+
+    .menu .cards-menu{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu .card-menu{
+        height: auto;
+    }
+
+    .menu .content-card{
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px auto;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .menu .content-card img{
+        max-width: 10%;
+        min-height: 10%;
+    }
+
+    .menu .teks{
+        width: 90%;
+    }
+
+    .menu .teks h4{
+        font-size: 20px;
+        margin: auto auto 5px 0;
+    }
+    
+    .menu .teks p{
+        font-size: 15px;
+    }
+      /* Menu End */
+
+      /* Footer Start */
+  footer{
+    width: 100%;
+  }
+  
+  footer h4{
+    font-size: 25px;
+  }
+  
+  footer h5{
+    font-size: 25px;
+  }
+  
+  footer p{
+    margin: auto auto auto 0;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  footer .container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .row1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  footer .col{
+    width: fit-content;
+    margin: auto;
+  }
+  
+  footer #col1{
+    margin: auto auto auto 16%;
+  }
+  
+  footer #col2{
+    width: 70%;
+    margin: auto;
+  }
+
+  
+  footer #col3{
+    width: 70%;
+  }
+  
+  footer .row-icon{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  footer #col1 #location img{
+    margin: 0 0 auto 0;
+  }
+  
+  footer #col2 p{
+    margin-bottom: 25px;
+  }
+  
+  footer .socialmedia{
+    display: flex;
+    gap: 19px;
+    width: 100%;
+  }
+
+  footer #col3 #KopInTouch{
+    margin-bottom: 5px;
+  }
+  
+  footer #col3 #location img{
+    margin: 0 0 auto 0;
+  }
+  
+  footer #col3 #open-hours{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+  }
+  
+  footer #col3 #location{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer .row2{
+    margin: auto;
+  }
+  
+  footer .row2 hr{
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    z-index: 2;
+    border: 0;
+  }
+  
+  footer .row2 p{
+    text-align: center;
+  }
+  
+  footer .row2 span{
+    color: #bf3148;
+    font-weight: 700;
+  }
+  /* Footer End */
+
+  .overlaytop-footer{
+    margin-bottom: -5%;
+  }
+}
